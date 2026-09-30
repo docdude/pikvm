@@ -9,14 +9,14 @@
             ],
             "url":              "https://docs.pikvm.org/v3",
             "group":            "General",
-            "os_info":          "http://download.sourceforge.net/project/pinn-os-files/v3_pikvm_plus/os.json",
-            "partitions_info":  "http://download.sourceforge.net/project/pinn-os-files/v3_pikvm_plus/partitions.json",
-            "icon":             "http://download.sourceforge.net/project/pinn-os-files/v3_pikvm_plus/v3_pikvm_plus.png",
-            "marketing_info":   "http://download.sourceforge.net/project/pinn-os-files/v3_pikvm_plus/marketing.tar",
-            "partition_setup":  "http://download.sourceforge.net/project/pinn-os-files/v3_pikvm_plus/partition_setup.sh",
+            "os_info":          "http://download.sourceforge.net/project/pinn-os-files/v3_pikvm_box/os.json",
+            "partitions_info":  "http://download.sourceforge.net/project/pinn-os-files/v3_pikvm_box/partitions.json",
+            "icon":             "http://download.sourceforge.net/project/pinn-os-files/v3_pikvm_box/v3_pikvm_plus.png",
+            "marketing_info":   "http://download.sourceforge.net/project/pinn-os-files/v3_pikvm_box/marketing.tar",
+            "partition_setup":  "http://download.sourceforge.net/project/pinn-os-files/v3_pikvm_box/partition_setup.sh",
             "tarballs": [
-                "http://download.sourceforge.net/project/pinn-os-files/v3_pikvm_plus/boot.tar.xz",
-                "http://download.sourceforge.net/project/pinn-os-files/v3_pikvm_plus/root.tar.xz"
+                "http://download.sourceforge.net/project/pinn-os-files/v3_pikvm_box/boot.tar.xz",
+                "http://download.sourceforge.net/project/pinn-os-files/v3_pikvm_box/root.tar.xz"
             ],
             "nominal_size":     2728
         }
