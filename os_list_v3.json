@@ -1,0 +1,84 @@
+{
+    "os_list": [
+        {
+            "os_name":          "debian12_arm64",
+            "description":      "A port of Debian 12 with no desktop environment",
+            "release_date":     "2023-06-12",
+            "supported_models": [
+                "Pi 4"
+            ],
+            "group":             "Minimal",
+            "url":               "https://raspi.debian.net//",
+            "os_info":           "http://download.sourceforge.net/project/pinn-os-files/debian-rpi4/os.json",
+            "partitions_info":   "http://download.sourceforge.net/project/pinn-os-files/debian-rpi4/partitions.json",
+            "icon":              "http://download.sourceforge.net/project/pinn-os-files/debian-rpi4/debian12_arm64.png",
+            "marketing_info":    "http://download.sourceforge.net/project/pinn-os-files/debian-rpi4/marketing.tar",
+            "partition_setup":   "http://download.sourceforge.net/project/pinn-os-files/debian-rpi4/partition_setup.sh",
+            "tarballs": [
+                "http://download.sourceforge.net/project/pinn-os-files/debian-rpi4/RASPIFIRM.tar.xz",
+                "http://download.sourceforge.net/project/pinn-os-files/debian-rpi4/RASPIROOT.tar.xz"
+            ],
+            "nominal_size":      4096
+        },
+        {
+            "os_name":	        "debian12_arm64",
+            "description":      "A port of Debian 12 with no desktop environment",
+            "release_date":     "2023-11-09",
+            "supported_models": [
+                "Pi 4"
+            ],
+            "url":              "https://raspi.debian.net/",
+            "group":            "Testing",
+            "os_info":          "http://download.sourceforge.net/project/pinn-os-files/debian-rpi4-testing/os.json",
+            "partitions_info":  "http://download.sourceforge.net/project/pinn-os-files/debian-rpi4-testing/partitions.json",
+            "icon":             "http://download.sourceforge.net/project/pinn-os-files/debian-rpi4-testing/debian12_arm64.png",
+            "marketing_info":   "http://download.sourceforge.net/project/pinn-os-files/debian-rpi4-testing/marketing.tar",
+            "partition_setup":  "http://download.sourceforge.net/project/pinn-os-files/debian-rpi4-testing/partition_setup.sh",
+            "tarballs": [
+                "http://download.sourceforge.net/project/pinn-os-files/debian-rpi4-testing/RASPIFIRM.tar.xz",
+                "http://download.sourceforge.net/project/pinn-os-files/debian-rpi4-testing/RASPIROOT.tar.xz"
+            ],
+            "nominal_size":     2500
+        },
+        {
+            "os_name":	        "v3_pikvm_box",
+            "description":      "PIKVMv3 HAT BOX Image OLED/FAN preactivated",
+            "release_date":     "2022-10-31",
+            "supported_models": [
+                "Pi 4"
+            ],
+            "url":              "https://docs.pikvm.org/v3",
+            "group":            "General",
+            "os_info":          "http://download.sourceforge.net/project/pinn-os-files/v3_pikvm_plus/os.json",
+            "partitions_info":  "http://download.sourceforge.net/project/pinn-os-files/v3_pikvm_plus/partitions.json",
+            "icon":             "http://download.sourceforge.net/project/pinn-os-files/v3_pikvm_plus/v3_pikvm_plus.png",
+            "marketing_info":   "http://download.sourceforge.net/project/pinn-os-files/v3_pikvm_plus/marketing.tar",
+            "partition_setup":  "http://download.sourceforge.net/project/pinn-os-files/v3_pikvm_plus/partition_setup.sh",
+            "tarballs": [
+                "http://download.sourceforge.net/project/pinn-os-files/v3_pikvm_plus/boot.tar.xz",
+                "http://download.sourceforge.net/project/pinn-os-files/v3_pikvm_plus/root.tar.xz"
+            ],
+            "nominal_size":     2728
+        },
+        {
+            "os_name":	        "v4_pikvm_box",
+            "description":      "PIKVMv4 Plus Image OLED/FAN preactivated",
+            "release_date":     "2023-06-10",
+            "supported_models": [
+                "Raspberry Pi Compute Module 4"
+            ],
+            "url":              "https://docs.pikvm.org/v4",
+            "group":            "General",
+            "os_info":          "http://download.sourceforge.net/project/pinn-os-files/v4_pikvm_plus/os.json",
+            "partitions_info":  "http://download.sourceforge.net/project/pinn-os-files/v4_pikvm_plus/partitions.json",
+            "icon":             "http://download.sourceforge.net/project/pinn-os-files/v4_pikvm_plus/v4_pikvm_plus.png",
+            "marketing_info":   "http://download.sourceforge.net/project/pinn-os-files/v4_pikvm_plus/marketing.tar",
+            "partition_setup":  "http://download.sourceforge.net/project/pinn-os-files/v4_pikvm_plus/partition_setup.sh",
+            "tarballs": [
+                "http://download.sourceforge.net/project/pinn-os-files/v4_pikvm_plus/boot.tar.xz",
+                "http://download.sourceforge.net/project/pinn-os-files/v4_pikvm_plus/root.tar.xz"
+            ],
+            "nominal_size":     2729
+        }
+    ]
+}
